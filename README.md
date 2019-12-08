@@ -15,11 +15,16 @@ fetch(jsonUrl, {method: 'get'})
 })
 ```
   
-  2.綁定事件：a.`select-opition`改變時，會將符合的資料取出，顯示於界面中
+  2.綁定事件：
+  
+a.`select-opition`改變時，會將符合的資料取出，顯示於界面中
+
 ```Javascript
  document.querySelector('.area').addEventListener('change', changeArea);
-```
-             b. 點擊按鈕時，將需要的值取出，顯示於界面中
+```            
+
+b.點擊按鈕時，將需要的值取出，顯示於界面中
+
 ```Javascript
 document.querySelector('.label').addEventListener('click', goto);
 ```
